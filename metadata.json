@@ -1,0 +1,6 @@
+{
+  "name": "Gerenciador de Tarefas e Produtividade",
+  "description": "Um aplicativo minimalista de tarefas e produtividade com estatísticas, gerenciamento de afazeres, criação de tarefas e perfil customizado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
