@@ -9,12 +9,12 @@ Serene é um gerenciador de tarefas e de produtividade premium que une o minimal
 Abaixo estão as reproduções visuais premium e táteis das 4 telas do Serene exatamente como apresentadas no início do projeto:
 
 <p align="center">
-  <img src="./src/assets/images/initial_screen_preview_1782313036029.jpg" alt="1. Minhas Tarefas" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
-  <img src="./src/assets/images/new_task_screen_preview_1782313234050.jpg" alt="2. Nova Tarefa" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
+  <img src="./nova%20tarefa.jpg" alt="1. Minhas Tarefas" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
+  <img src="./pagina.jpg" alt="2. Nova Tarefa" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
 </p>
 <p align="center">
-  <img src="./src/assets/images/statistics_screen_preview_1782313217971.jpg" alt="3. Estatísticas" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
-  <img src="./src/assets/images/profile_screen_preview_1782313250088.jpg" alt="4. Meu Perfil" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
+  <img src="./estatisticas.jpg" alt="3. Estatísticas" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
+  <img src="./perfil.jpg" alt="4. Meu Perfil" width="220" style="border-radius: 16px; margin: 10px; box-shadow: 0 4px 20px rgba(12, 61, 94, 0.12);" referrerPolicy="no-referrer" />
 </p>
 
 ---
@@ -39,7 +39,7 @@ O aplicativo conta com uma navegação na barra inferior do tipo **Floating Dock
 
 ### 1. Minhas Tarefas (Lista Principal)
 - **Filtros por Estado**: Alternador instantâneo entre categorias (Todos, Completos, Pendentes).
-- **Checkbox Circular Tátil**: Em vez de caixas de seleção tradicionais, os checkmarks usam círculos táteis — borda azulada vazia para tarefas ativas e preenchimento Cyan com ícone de verificação ao completar.
+- **Checkbox Circular Tátil**: Em vez de caixas de seleção tradicionais, os checkmarks usam círculos táteis — borda azulada vazia para tarefas ativas e preenchimento Cyan com ícone de verificação ao complementar.
 - **Watermark Mental**: Frases motivacionais rotativas coletadas de grandes inventores e filósofos, atualizadas ao toque do usuário.
 - **Card Resumo**: Indicador numérico dinâmico que contabiliza todas as suas conquistas acumuladas.
 
@@ -63,6 +63,11 @@ O aplicativo conta com uma navegação na barra inferior do tipo **Floating Dock
 
 ## 🛠️ Tecnologias Utilizadas
 
+- **React 19** & **TypeScript**
+- **Vite** (Framework de build ultra-rápido)
+- **Tailwind CSS** (Estilização baseada em utilitários e variáveis de tema personalizadas)
+- **Lucide React** (Ícones limpos, lineares e sofisticados)
+- **Local Storage** (Sincronização persistente do seu progresso, mantendo os dados seguros no navegador do usuário)
 - **React 19** & **TypeScript**
 - **Vite** (Framework de build ultra-rápido)
 - **Tailwind CSS** (Estilização baseada em utilitários e variáveis de tema personalizadas)
